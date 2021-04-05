@@ -8,8 +8,6 @@ public class CheckingAccount extends Account {
      */
     private double checkCharge;
 
-
-    //good?
     public CheckingAccount(int idNumber, double startBal, double cc) {
         super(idNumber, startBal);
         checkCharge = cc;
@@ -20,7 +18,6 @@ public class CheckingAccount extends Account {
         decreaseBalance(amount + checkCharge);
     }
 
-    //confused
     /* (non-Javadoc)
      * @see Account#monthlyInterest()
      */
