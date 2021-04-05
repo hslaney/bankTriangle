@@ -18,6 +18,10 @@ public abstract class Triangle
         return getArea()/getPerimeter();
     }
 
+    public double getSide(){
+        return side;
+    }
+
 
 }
 

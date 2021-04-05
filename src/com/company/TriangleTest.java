@@ -17,7 +17,6 @@ public class TriangleTest {
 
         for(Triangle t: t1){
             System.out.println(t);
-            // no tostring?
             System.out.println("Area = " + t.getArea());
             System.out.println("Perimeter = " + t.getPerimeter());
             System.out.println("Ratio = " + t.getRatio());
@@ -26,3 +25,21 @@ public class TriangleTest {
     }
 
 }
+/*
+A right triangle with legs length 4.0
+Area = 8.0
+Perimeter = 13.65685424949238
+Ratio = 0.585786437626905
+A right triangle with legs length 6.0
+Area = 18.0
+Perimeter = 20.485281374238568
+Ratio = 0.8786796564403575
+An equilateral triangle with sides length 4.0
+Area = 6.928203230275509
+Perimeter = 12.0
+Ratio = 0.5773502691896257
+An equilateral triangle with sides length 6.0
+Area = 15.588457268119896
+Perimeter = 18.0
+Ratio = 0.8660254037844387
+ */
